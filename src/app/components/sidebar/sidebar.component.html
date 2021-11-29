@@ -1,0 +1,31 @@
+<div class="logo">
+    <a href="#" class="simple-text">
+        <div class="logo-img" style="padding-right: 2px;">
+            <img src="/assets/img/Logo_2.png"/>
+            
+        </div>
+        <span class="aligned-with-icon" >Generate LOA</span>
+    </a>
+</div>
+<div class="sidebar-wrapper">
+  <div *ngIf="isMobileMenu()">
+    <ul class="nav navbar-nav nav-mobile-menu">
+        <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">
+                <i class="material-icons">exit_to_app</i>
+                <p>
+                    <span class="d-lg-none d-md-block">Sign Out</span>
+                </p>
+            </a>
+        </li>
+    </ul>
+  </div>
+    <ul class="nav">
+        <li routerLinkActive="active" *ngFor="let menuItem of menuItems" class="{{menuItem.class}} nav-item">
+            <a class="nav-link" [routerLink]="[menuItem.path]">
+                <i class="material-icons">{{menuItem.icon}}</i>
+                <p>{{menuItem.title}}</p>
+            </a>
+        </li>
+    </ul>
+</div>
