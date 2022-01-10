@@ -17,6 +17,8 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+// import { CreateloaComponent } from './createloa/createloa.component';
+
 // import { AngularFireModule } from '@angular/fire/compat';
 // import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 // import { environment } from '../environments/environment';
@@ -40,6 +42,8 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+    // CreateloaComponent,
+    
 
   ],
   providers: [],
