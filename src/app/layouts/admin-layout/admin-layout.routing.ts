@@ -53,4 +53,4 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'user-profile',   component: UserProfileComponent },
     { path: 'table-list',     component: TableListComponent },
     { path: 'create-loa',     component: CreateloaComponent },
-];
+ ];

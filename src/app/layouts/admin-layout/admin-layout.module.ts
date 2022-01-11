@@ -26,14 +26,14 @@ import {MatSelectModule} from '@angular/material/select';
     MatInputModule,
     MatSelectModule,
     MatTooltipModule,
-  ],
+   ],
   declarations: [
     DashboardComponent,
     UserProfileComponent,
     TableListComponent,
     CreateloaComponent,
  
-  ]
+   ]
 })
 
 export class AdminLayoutModule {}
